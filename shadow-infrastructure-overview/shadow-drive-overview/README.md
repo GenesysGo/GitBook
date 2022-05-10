@@ -10,7 +10,7 @@ The Shadow Drive has been designed as the solution to Solana’s growing need fo
 
 Please note, this paper assumes some basic knowledge of GenesysGo, $SHDW, and the Solana architecture as a whole. This paper is, by design, not meant as an introductory resource to GenesysGo or Solana. Instead, this paper should be viewed as a resource for those considering GenesysGo’s Shadow Drive as a potential storage solution or for those attempting to vet the Shadow Drive’s long term viability.
 
-If you aren’t familiar with Solana’s architecture then it is highly recommended you spend some time learning about how Solana validators store “Account State”, what “AccountsDB” is, and what goes into the creation of “on-chain accounts.” Please see the Solana Discord (discord.gg/solana) and check out the dev-resources channel if none of these things are familiar to you.
+If you aren’t familiar with Solana’s architecture, then it is highly recommended to spend some time learning about how Solana validators store “Account State”, what “AccountsDB” is, and what goes into the creation of “on-chain accounts.” Please see the Solana Discord (discord.gg/solana) and check out the dev-resources channel if none of these things are familiar to you.
 
 ## Contents <a href="#8ee5" id="8ee5"></a>
 
