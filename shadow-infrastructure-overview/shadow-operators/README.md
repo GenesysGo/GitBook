@@ -16,14 +16,14 @@ Devnet testing will conclude on May 31st, 2022.
 
 Shadow Operators are independent members of the Solana community who maintain servers in order to actively contribute compute and storage to the Shadow Protocol's decentralized network of servers.&#x20;
 
-They operate in a trustless permissionless environment and in exchange for their efforts receive rewards in the form of $SHDW. Being a Shadow Operator is the only way to earn singled sided staking rewards in $SHDW.
+They operate in a trustless permissionless environment and in exchange for their efforts receive rewards in the form of $SHDW. Being a Shadow Operator is the only way to earn single sided staking rewards in $SHDW.
 
-There are a few mechanics at play for Shadow Operators and are very important to understand before coming a Shadow Operator.
+There are multiple considerations at play for Shadow Operators that are very important to understand before becoming a Shadow Operator.
 
 {% hint style="danger" %}
 Being a Shadow Operator is something which should be taken seriously. Anyone can learn to become a Shadow Operator but it should be understood that this is not a "set it and forget it" thing.
 
-When the Shadow Operator program moves into live Mainnet-Beta please note that all things are subject to change as they are with any beta.
+When the Shadow Operator program moves into live Mainnet beta please note that all things are subject to change, as they are with any beta.
 
-The stability of the Solana network and the requests its users send is the only priority and actions taken by Shadow Operators designed to "game the system" could result in aspects of the program being updated in order to ensure said stability.
+Maintaining the stability of the Solana network and efficiently processing the requests of its users are the highest priorities of Shadow Operators.  Any actions taken by Shadow Operators designed to "game the system" could result in changes to the program to ensure that stability and efficiency, and perhaps result in consequences for the Operator.
 {% endhint %}

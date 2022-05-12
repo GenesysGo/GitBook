@@ -6,7 +6,7 @@ coverY: 0
 
 # Shadow Drive Overview
 
-The Shadow Drive has been designed as the solution to Solana’s growing need for on-chain ecosystem native storage solution. The following pages are intended to outline what Shadow Drive is, how it works, and why it works. These pages will do so by explaining things in practical terms as our goal is for a wide range of people to fully understand what is being built, rather than a select few. The hard-core academic types with a deep love for algorithms will likely find these pages to be largely disappointing.
+The Shadow Drive has been designed as the solution to Solana’s growing need for an on-chain ecosystem native storage solution. The following pages are intended to outline what Shadow Drive is, how it works, and why it works. These pages will do so by explaining things in practical terms as our goal is for a wide range of people to fully understand what is being built, rather than a select few. The hard-core academic types with a deep love for algorithms will likely find these pages to be largely disappointing.
 
 Please note, this paper assumes some basic knowledge of GenesysGo, $SHDW, and the Solana architecture as a whole. This paper is, by design, not meant as an introductory resource to GenesysGo or Solana. Instead, this paper should be viewed as a resource for those considering GenesysGo’s Shadow Drive as a potential storage solution or for those attempting to vet the Shadow Drive’s long term viability.
 

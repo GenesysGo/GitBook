@@ -8,16 +8,28 @@ You can install the Shadow Drive CLI by downloading one of the files below that 
 
 1.  Linux x64
 
-    `curl https://shdw-drive.genesysgo.net/HxUAdsVaibQPU9YSqq4vJV1uJGN3LDeoW4949GbhX1M/shdw-drive-linux-x64.tar.bz2 -o shdw-drive-linux-x64.tar.bz2 && tar -xvf shdw-drive-linux-x64.tar.bz2`
+```bash
+curl https://shdw-drive.genesysgo.net/GgJzHnEzMMFwYazhxeAY26q6zfoEc1LNmA7fwi7AWePE/shdw-drive-linux-x64.tar.bz2 -o shdw-drive-linux-x64.tar.bz2
+tar -xvf shdw-drive-linux-x64.tar.bz2
+```
 2.  Linux ARM
 
-    `curl https://shdw-drive.genesysgo.net/HxUAdsVaibQPU9YSqq4vJV1uJGN3LDeoW4949GbhX1M/shdw-drive-linux-arm64.tar.bz2 -o shdw-drive-linux-arm64.tar.bz2 && tar -xvf shdw-drive-linux-arm64.tar.bz2`
+```bash
+curl https://shdw-drive.genesysgo.net/GgJzHnEzMMFwYazhxeAY26q6zfoEc1LNmA7fwi7AWePE/shdw-drive-linux-arm64.tar.bz2 -o shdw-drive-linux-arm64.tar.bz2
+tar -xvf shdw-drive-linux-arm64.tar.bz2
+```
 3.  MacOS x64
 
-    `curl https://shdw-drive.genesysgo.net/HxUAdsVaibQPU9YSqq4vJV1uJGN3LDeoW4949GbhX1M/shdw-drive-macos-x64.tar.bz2 -o shdw-drive-macos-x64.tar.bz2 && tar -xvf shdw-drive-macos-x64.tar.bz2`
+```bash
+curl https://shdw-drive.genesysgo.net/GgJzHnEzMMFwYazhxeAY26q6zfoEc1LNmA7fwi7AWePE/shdw-drive-macos-x64.tar.bz2 -o shdw-drive-macos-x64.tar.bz2 
+tar -xvf shdw-drive-macos-x64.tar.bz2
+```
 4.  MacOS ARM
 
-    `curl https://shdw-drive.genesysgo.net/HxUAdsVaibQPU9YSqq4vJV1uJGN3LDeoW4949GbhX1M/shdw-drive-macos-arm64.tar.bz2 -o shdw-drive-macos-arm64.tar.bz2 && tar -xvf shdw-drive-macos-arm64.tar.bz2`
+```bash
+curl https://shdw-drive.genesysgo.net/GgJzHnEzMMFwYazhxeAY26q6zfoEc1LNmA7fwi7AWePE/shdw-drive-macos-arm64.tar.bz2 -o shdw-drive-macos-arm64.tar.bz2
+tar -xvf shdw-drive-macos-arm64.tar.bz2
+```
 
 After downloading the CLI executable binary, you can run it with `./shdw-drive` or you can add it to your shell's PATH by moving it into a directory that is either already exported to your PATH (like `/usr/bin`) or move it to a directory like `~/bin/shdw-drive` and run `export PATH=$PATH:~/bin/shdw-drive` to add it to your current session's PATH.
 
@@ -173,6 +185,17 @@ Parameters:
 2. Directory: Path to the folder of files you want to upload.
 
 ![](../../.gitbook/assets/upload-multiple-files.gif)
+
+It is possible some files will not upload - and this will be reflected in the `.json` file mentioned above. The results are also printed to the terminal when the upload-multiple-files command completes. You can identify which files have failed to upload by searching for 'location: null' in the file.
+
+![](../../.gitbook/assets/shdw_multiple_upload_fail.png)
+
+ To re-upload the files that failed to upload when you initially ran the command - simply rerun the same command. The command checks if a file has already been uploaded and then moves on to the files which haven't yet been uploaded. 
+
+![](../../.gitbook/assets/shdw_succes_retry_multi_upload.png)
+
+The following command was used for this, with the folder containing files [0-10].gif & [0-10].json:
+shdw-drive upload-multiple-files --env mainnet-beta --keypair /home/ssc/.config/solana/test.json -d test_diamond/
 
 ### Edit File
 

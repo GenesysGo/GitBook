@@ -18,7 +18,7 @@ Shadow Realm blocks are built by Shadow Validators whose compute has been alloca
 ## How does a Shadow Realm work?
 
 {% hint style="warning" %}
-Please note, this is meant to communicate the general feel and flow. The specifics are always subject to change if we come up with a better way to implement.
+Please note, this is meant to communicate the general feel and flow. The specifics are always subject to change if we come up with a better implementation.
 {% endhint %}
 
 1. Shadow Realm creation begins on the Solana Mainnet. To create a Shadow Realm a transaction is signed on Solana Mainnet via the Shadow Net smart contract and that transaction signature is validated and stored on chain.
@@ -26,7 +26,7 @@ Please note, this is meant to communicate the general feel and flow. The specifi
 3. The Shadow Net Smart Contract then passes the signature to the Shadow Validators who use those instructions to create a Shadow Realm.
 4. Shadow Net Validators receive a snapshot of the most recent state of all Solana Mainnet Program accounts from the Shadow Drive and the snapshot is unpacked to bring the Shadow Validators online.
    * This process is nearly identical to the process used by Solana Validators during the most recent chain halt. The most recent valid block was agreed upon by the majority of Solana Mainnet validators and then each validator downloaded and unpacked the snapshot containing that block and all relevant state.
-5. At the same time, if the creator of a Shadow Realm chooses, they can also include instructions sent to the Solana Wormhole Token Bridge. These instructions would include any relevant instructions as to which token assets that the Shadow Realm created wished to bridge over.
+5. At the same time, if the creator of a Shadow Realm chooses, they can also include instructions sent to the Solana Wormhole Token Bridge. These instructions could direct the Wormhole to bridge over existing Mainnet token assets so they are immediately available in the new Shadow Realm.
    * This is very similar to how the Wormhole Token Bridge can port token assets across different blockchains.
-6. From here, a Shadow Realm operates exactly as it would if a builder deployed a Testnet validator on their local machine. Except, the Shadow Net handles all the heavy lifting!
-7. When the instructions are given, messages are sent through wormhole which updates the other program's state on the Solana Mainnet entirely. Any tokens that were produced or traded in a Shadow Realm as a result of the program just use a token bridge.
+6. From here, a Shadow Realm operates exactly as it would if a builder deployed a Testnet validator on their local machine. Except the Shadow Net handles all the heavy lifting!
+7. When the instructions are given, messages are sent through the Wormhole which updates the other program's state on the Solana Mainnet entirely. Any tokens that were produced or traded in a Shadow Realm as a result of the program just use a token bridge.
