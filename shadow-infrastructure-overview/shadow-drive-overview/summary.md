@@ -11,4 +11,4 @@ The idea for Shadow Drive was founded on the premise that the Solana network is 
 
 Whereas other decentralized storage providers require multiple layers in order to make their solution viable (i.e. Arweave does storage, but to make uploads faster you need to use Bundlr, and then in order to serve the data in any kind of a useful way you need to use ArDrive), Shadow Drive builds everything in to one platform.
 
-When a user commits their $SHDW to Shadow Drive in order to gain access to storage space they are being provided with storage space, incredibly fast batched uploads, and a CDN in order to ensure that their content is stored quickly, efficiently, and delivered at speeds that makes Shadow Drive a true viable solution for projects that need speed, stability, and efficiency.
+When a user commits their $SHDW to Shadow Drive for storage they are not only provided with storage space, but also with incredibly fast batched uploads and a robust CDN. This ensures their content is stored quickly, efficiently, and delivered at speeds that makes Shadow Drive a truly viable solution for projects that need speed, stability, and efficiency.

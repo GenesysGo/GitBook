@@ -24,9 +24,9 @@ It’s easiest to explain in real terms, so here’s an example… Let’s say y
 
 1. An NFT project uploads their NFT metadata to Shadow Drive. The NFT project wishes for this metadata to be stored forever and wants it to be immutable.
 2. These instructions from the NFT project creators are passed to the Shadow Drive smart contract and the smart contract sends a transaction request to the Solana validators which has been signed by the NFT project’s wallet.
-3. An account hash is created on-chain that indicates which NFT project the metadata is associated with, that this metadata is immutable, and to be stored permanently.
+3. An account hash is created on-chain that indicates which NFT project the metadata is associated with, that this metadata is immutable, and it is to be stored permanently.
 4. Then the hash plus the actual NFT metadata itself are hashed again, sharded, and uploaded to Shadow Drive by the smart contract in the appropriate storage format and location to ensure that the data can never be edited (not even by the NFT founders who uploaded it) and never deleted.
 
-Under this design, the Shadow Drive smart contract only recognizes signatures from the wallet associated with the stored data. In this example, any transaction requests to change the data listed as immutable in Shadow Drive would fail to be validated by the Solana validators. This is because the smart contract would not pass through any instructions to edit or delete this data, due to the fact that the data is immutable and therefore cannot be edited or deleted.
+Under this design, the Shadow Drive smart contract only recognizes signatures from the wallet associated with the stored data. In this example, any transaction request to change the data listed as immutable in Shadow Drive would fail to be validated by the Solana validators. This is because the smart contract would not pass through any instructions to edit or delete this data, due to the fact that the data is immutable and therefore cannot be edited or deleted.
 
 In the **“Shadow Drive Smart Contract”** section, we will go deeper into how the Shadow Drive smart contract interacts with the Solana validator network to ensure that the data stored in Shadow Drive and the Paxos consensus mechanism inside are also being validated to ensure their current state (and thus the integrity of the data) remains intact.
