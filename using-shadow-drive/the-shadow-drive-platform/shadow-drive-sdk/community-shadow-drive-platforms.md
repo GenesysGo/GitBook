@@ -4,6 +4,12 @@ description: A showcase of amazing people building great things on top of Shadow
 
 # Community Shadow Drive Platforms
 
+{% hint style="warning" %}
+These platforms and user-interfaces are largely designed with non-developer users in mind.
+
+If you are a developer building a project we would highly recommending utilizing the CLI and/or SDK as it was built with the developer community in mind.
+{% endhint %}
+
 ## Pentacle Tools Shadow Drive File Viewer
 
 {% embed url="https://pentacle.tools/shadow-drive" %}
