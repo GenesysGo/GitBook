@@ -4,6 +4,7 @@
 * [The Shadow Ecosystem](the-shadow-protocol.md)
 * [GenesysGo](genesysgo/README.md)
   * [Social Media & Community](genesysgo/social-media-and-community.md)
+  * [The GenesysGo RPC Network](genesysgo/the-genesysgo-rpc-network.md)
 
 ## Shadow Infrastructure Overview
 

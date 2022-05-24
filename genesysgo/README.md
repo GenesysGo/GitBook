@@ -22,5 +22,7 @@ The Shadowy Super Coder NFT quickly rocketed to become one of the top 5 NFTs on 
 
 ![](<../.gitbook/assets/image (3).png>)
 
+All royalties from the SSC NFT also go towards providing the Solana ecosystem with high throughput RPC network access at no cost.&#x20;
+
 Shortly thereafter, we recognized another huge need in the Solana ecosystem... the need for Solana optimized decentralized on-chain storage. At which point, we began building and have since launched the Shadow Drive!
 
