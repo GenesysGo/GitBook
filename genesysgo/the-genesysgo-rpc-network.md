@@ -14,13 +14,13 @@ Devnet endpoints are available as well! They're uglier bc it's just devnet but t
 
 ## How does the SSC DAO RPC Network function?
 
-The SSC DAO network provides the following:
+The SSC DAO RPC network provides the following:
 
 * A global cluster of servers that has no singular point of failure.
 * No data caps&#x20;
-* Archive nodes with data back to genesis&#x20;
+* All Solana historical ledger data back to the genesis block&#x20;
 * GeoDNS load balancing&#x20;
-* Gigabit speeds
+* 10+ Gigabit speeds
 * Provides incredibly high rate limits that would cost $1,000/month or more with other providers
   * Rate limits are handled on a per IP basis, each unique IP has its own bandwidth.
     * `SendTransaction` Limit: 10 RPS + 200 Burst
