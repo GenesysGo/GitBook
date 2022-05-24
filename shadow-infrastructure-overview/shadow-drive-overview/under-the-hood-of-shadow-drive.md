@@ -1,10 +1,8 @@
 # Under the hood of Shadow Drive
 
-At the heart of Shadow Drive lives the open source software defined storage program called Ceph.&#x20;
+At the heart of Shadow Drive lives the open source software defined storage program called Ceph.
 
 ![https://en.wikipedia.org/wiki/Ceph\_(software)](<../../.gitbook/assets/image (1).png>)
-
-
 
 **Ceph was chosen for a number of reasons…**
 
@@ -19,13 +17,13 @@ At the heart of Shadow Drive lives the open source software defined storage prog
 
 …the creator of the Paxos Consensus Mechanism, Leslie Lamport, is also honored as Solana’s biggest technical influence…
 
-![https://docs.solana.com/introduction](<../../.gitbook/assets/image (3).png>)
+![https://docs.solana.com/introduction](<../../.gitbook/assets/image (3) (1).png>)
 
 ![https://martinfowler.com/articles/patterns-of-distributed-systems/paxos.html](../../.gitbook/assets/image.png)
 
 ### If nothing else… <a href="#b15e" id="b15e"></a>
 
-It’s kinda cool to know that we’re using the same DB software as the CERN team is! [https://indico.cern.ch/event/649159/contributions/2761965/attachments/1544385/2423339/hroussea-storage-at-CERN.pdf](https://indico.cern.ch/event/649159/contributions/2761965/attachments/1544385/2423339/hroussea-storage-at-CERN.pdf)&#x20;
+It’s kinda cool to know that we’re using the same DB software as the CERN team is! [https://indico.cern.ch/event/649159/contributions/2761965/attachments/1544385/2423339/hroussea-storage-at-CERN.pdf](https://indico.cern.ch/event/649159/contributions/2761965/attachments/1544385/2423339/hroussea-storage-at-CERN.pdf)
 
 In fact, the CERN team submitted PRs to the main Ceph branch to have their homegrown improvements included in the main branch.
 
