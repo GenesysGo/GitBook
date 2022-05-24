@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Summary](README.md)
+* [Shadow Book Summary](README.md)
 * [The Shadow Ecosystem](the-shadow-protocol.md)
 
 ## Shadow Infrastructure Overview
