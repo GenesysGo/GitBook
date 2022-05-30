@@ -1,5 +1,17 @@
 # The GenesysGo RPC Network
 
+{% hint style="warning" %}
+YES! The GenesysGo RPC Network is free. Yes, we can offer free infrastructure despite what the uninformed might otherwise think.
+
+The GenesysGo RPC Network is paid for using the royalties from the Shadowy Super Coder NFT and the APR generated from the Shadowy Super Coder DAO Validator.
+
+If you want to support our RPC network and earn APR while you're at it, consider staking your SOL with us:
+
+[https://solanabeach.io/validator/AKoVXpZmi8wSz3sGvCYEygbpdHvSRysWsh36b97iPvKh](https://solanabeach.io/validator/AKoVXpZmi8wSz3sGvCYEygbpdHvSRysWsh36b97iPvKh)
+{% endhint %}
+
+
+
 ## If you are a Solana builder wanting RPC network access...
 
 ### **`Mainnet Endpoint:`** [**`https://ssc-dao.genesysgo.net/`**](https://ssc-dao.genesysgo.net/) **``**&#x20;
