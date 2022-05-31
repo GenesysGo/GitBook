@@ -27,3 +27,9 @@ Follow Knox on Twitter at [https://twitter.com/knox\_trades](https://twitter.com
 {% embed url="https://drive.alphabatem.com/login" %}
 
 You can follow the Alpha\_Batem Twitter at [https://twitter.com/alpha\_batem](https://twitter.com/alpha\_batem)
+
+## Coach Chuck's Perma-Mint Reminders
+
+{% embed url="https://shdw-drive.genesysgo.net/6P6WznKbJ2nEMCfrXZDQvipCgCSx45SXxjWMWvqfPtyJ/yal_website.html" %}
+
+You can follow Coach Chuck on Twitter at [https://twitter.com/CoachChuckFF](https://twitter.com/CoachChuckFF)
