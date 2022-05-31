@@ -217,13 +217,3 @@ Parameters:
 2. URL: The Shadow Drive URL of the file you're requesting to delete
 
 ![](../../.gitbook/assets/undelete-file.gif)
-
-### DEVNET TESTING ONLY: Request $SHDW Airdrop
-
-Example: `shdw-drive airdrop-shdw -r FRANKC3ibsaBW1o2qRuu3kspyaV4gHBuUfZ5uq9SXsqa`
-
-This command will request an airdrop of devnet SHDW to your wallet.
-
-NOTE: This is only while Shadow Drive is in development testing. If you try to make this request once Shadow Drive is deployed to mainnet, you will get an error.
-
-![](../../.gitbook/assets/airdrop.gif)
