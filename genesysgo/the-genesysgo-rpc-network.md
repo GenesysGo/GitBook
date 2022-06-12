@@ -18,9 +18,9 @@ If you want to support our RPC network and earn APR while you're at it, consider
 
 The SSC DAO network handles both https and wss connections. It provides unlimited data, global DNS load balancing for the lowest latency possible, backed by 300+ bare metal servers in 9 countries across 3 different continents. Additionally, the SSC DAO network has the full ledger history back to the genesis block.&#x20;
 
-A Devnet endpoint is available as well! Note, Devnet does not support the full ledger history all the way back to the genesis block. Devnet Endpoint:
-
-``[`https://devnet.genesysgo.net/`](https://devnet.genesysgo.net/)``
+A Devnet endpoint is available as well! Note, Devnet does not support the full ledger history all the way back to the genesis block. \
+\
+Devnet Endpoint: [`https://devnet.genesysgo.net/`](https://devnet.genesysgo.net/)``
 
 
 
