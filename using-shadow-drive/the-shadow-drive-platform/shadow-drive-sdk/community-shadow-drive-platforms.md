@@ -42,7 +42,7 @@ You can follow Shadow Storage on Twitter at [https://twitter.com/shadow_storage]
 
 ## Grape Shadow Drive UI / Repo
 
-{% embed url="https://grape-drive-six.vercel.app" %}
+{% embed url="https://grapedrive.vercel.app" %}
 {% embed url="https://github.com/Grape-Labs/grape-drive" %}
 
 You can follow Grape Twitter at [https://twitter.com/shadow_storage](https://twitter.com/grapeprotocol)
