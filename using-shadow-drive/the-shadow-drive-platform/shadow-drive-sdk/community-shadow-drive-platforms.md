@@ -39,3 +39,10 @@ You can follow Coach Chuck on Twitter at [https://twitter.com/CoachChuckFF](http
 {% embed url="https://www.shadow.storage/" %}
 
 You can follow Shadow Storage on Twitter at [https://twitter.com/shadow_storage](https://twitter.com/shadow_storage)
+
+## Grape Shadow Drive UI / Repo
+
+{% embed url="https://grapedrive.vercel.app" %}
+{% embed url="https://github.com/Grape-Labs/grape-drive" %}
+
+You can follow Grape Twitter at [https://twitter.com/shadow_storage](https://twitter.com/grapeprotocol)
