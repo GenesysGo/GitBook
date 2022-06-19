@@ -1,9 +1,9 @@
 # GenesysGo
 
-GenesysGo was founded by Frank & Steven in February 2021 and was originally meant to be two friends with a passion for hardware running a validator.
+GenesysGo was founded by Frank & Steven in February 2021 and was originally meant to be just two friends who have a passion for hardware running a validator.
 
 {% embed url="https://solanabeach.io/validator/AKoVXpZmi8wSz3sGvCYEygbpdHvSRysWsh36b97iPvKh" %}
-Please stake with the SSC DAO validator! All proceeds go towards providing the Solana ecosystem with a completely free high speed RPC network!
+Please stake with the Shadowy Super Coder Validator! Ownership of the&#x20;
 {% endembed %}
 
 Shortly after the GenesysGo Validator (now the Shadowy Super Coder DAO validator) was created the team saw an opportunity to help contribute to strengthening the infrastructure of the Solana network by turning their focus to RPC servers.
@@ -20,7 +20,9 @@ Our goal was not to launch another NFT on Solana, rather it was to help advance 
 
 The Shadowy Super Coder NFT quickly rocketed to become one of the top 5 NFTs on Solana and has not left the top 5 since its arrival. It occupied the #1 slot by marketcap on many occasions. Which is not bad for an NFT launched by an infrastructure project!
 
-![](<../.gitbook/assets/image (3).png>)
+{% embed url="https://hyperspace.xyz/leaderboard" %}
+Solana NFT Project Leaderboards
+{% endembed %}
 
 All royalties from the SSC NFT also go towards providing the Solana ecosystem with high throughput RPC network access at no cost.&#x20;
 

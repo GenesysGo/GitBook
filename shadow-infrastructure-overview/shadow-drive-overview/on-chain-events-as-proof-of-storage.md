@@ -12,7 +12,7 @@ Thinking back to state, the history of the accounts on Solana is completely irre
 
 Tying everything together, what Solana is really built to achieve and maintain consensus on is the state of all accounts on the network. **It is a state machine.** In fact, **“the world’s most performant global state machine”** is exactly how Solana is described in its Twitter bio.
 
-![https://twitter.com/solana](<../../.gitbook/assets/image (4).png>)
+![https://twitter.com/solana](<../../.gitbook/assets/image (4) (1).png>)
 
 The current state of Solana is already hashed, but then it is shredded and decentralized across all the validators of the network. Effectively what this means is that Solana can recreate the current state of every piece of data on the blockchain… every wallet address, every program that’s been deployed, the location of every single token… at a moment’s notice… **without** needing to know anything about the historical transactions that led up to the current state.
 
