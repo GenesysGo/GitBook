@@ -1,7 +1,8 @@
 # Table of contents
 
 * [Shadow Book Summary](README.md)
-* [The Shadow Ecosystem](the-shadow-protocol.md)
+* [The Shadow Ecosystem](the-shadow-protocol/README.md)
+  * [The Shadowy Super Coder Validator](the-shadow-protocol/the-shadowy-super-coder-validator.md)
 * [GenesysGo](genesysgo/README.md)
   * [Social Media & Community](genesysgo/social-media-and-community.md)
   * [The GenesysGo RPC Network](genesysgo/the-genesysgo-rpc-network.md)

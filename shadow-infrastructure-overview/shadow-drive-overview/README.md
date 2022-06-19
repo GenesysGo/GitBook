@@ -1,6 +1,6 @@
 ---
 description: Trustless Permissionless Solana Optimized Storage
-cover: ../../.gitbook/assets/server_background_only.png
+cover: ../../.gitbook/assets/server_background_only (1).png
 coverY: 0
 ---
 

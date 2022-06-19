@@ -2,19 +2,19 @@
 description: >-
   Click a button and a Wormhole + Devnet appears with the state of all Solana
   Mainnet programs preloaded - Toly
-cover: ../../.gitbook/assets/server_background_only (1).png
+cover: ../../.gitbook/assets/server_background_only.png
 coverY: 0
 ---
 
 # The Shadow Net
 
 {% hint style="warning" %}
-The Shadow Net section is under construction and will be updated with greater detail over the coming weeks.&#x20;
+The Shadow Net section is under construction and will be updated with greater detail over the coming weeks.
 
 _Last Updated: May 9th, 2022_
 {% endhint %}
 
-The Shadow Net allows Solana builders the ability to create private instances of the Solana blockchain for as long or as short a period of time as they like. These private instances, or "Shadow Realms", are enhanced by their integration with the Solana Wormhole which enables full bridging of Mainnet tokens to and from the Shadow Realms.&#x20;
+The Shadow Net allows Solana builders the ability to create private instances of the Solana blockchain for as long or as short a period of time as they like. These private instances, or "Shadow Realms", are enhanced by their integration with the Solana Wormhole which enables full bridging of Mainnet tokens to and from the Shadow Realms.
 
 Once inside a Shadow Realm, transaction fees are no longer paid in $SOL and are instead paid using the Shadow Net's native token $SHDW. You can't hop between realities and not expect the laws of reality to change at least a little bit!
 
@@ -42,4 +42,3 @@ An open source network powered by $SHDW as the gas fee token. Dedicated validato
 1. Similar to the criteria for becoming a Wormhole Guardian Node operator, running a Shadow Validator will only be open to high quality validator operators with a proven track record.
 2. The existing delegation model used for delegating $SOL to Solana validators will be implemented across the Shadow Validators. This creates another mechanism for $SHDW holders to stake $SHDW, earn rewards, and contribute to strengthening the network.
 3. Implementation of stake-weighted voting in order to provide fully decentralized Shadow Realms for projects that desire it.
-
