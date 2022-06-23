@@ -4,7 +4,7 @@ Slashing is a mechanism by which a network punishes bad actors or negligent oper
 
 Health checks are sent to Shadow Operators in the form of RPC pings. Shadow Operators whose machines fail to respond to the health check pings or are behind by higher than a certain amount of slots are considered "down" and are potentially subject to slashing if they persist in that state for too long.
 
-{% hint style="info" %}
+{% hint style="danger" %}
 All instances of slashing and failed health checks are handled on-chain and have been validated for consensus by the Solana Mainnet validators. Slashing is recorded on-chain and callable for review to ensure the integrity of the mechanic.
 {% endhint %}
 
