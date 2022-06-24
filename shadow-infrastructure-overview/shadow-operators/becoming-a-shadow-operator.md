@@ -9,7 +9,7 @@
    * Applicants must apply through the processes outlined in this site and are subject to KYC checks. This is a Solana requirement.
 2. Once you have a server up and running you will need to configure it.
    * [https://github.com/Shadowy-Super-Coder-DAO](https://github.com/Shadowy-Super-Coder-DAO) - You may follow the instructions we've written out here or check out the Solana docs [https://docs.solana.com/](https://docs.solana.com)
-3. Follow the instructions to register your node - [https://portal.genesysgo.net/#](https://dev.portal.genesysgo.net)
+3. Follow the instructions to register your node - [https://portal.genesysgo.net/#](https://portal.genesysgo.net)
    * Upon registering your node you will be automatically connected to the upstream and your server will be serving Solana Mainnet RPC traffic!
 4. Join our Discord! Here you can ask questions and request the role of a "Shadow Operator" to gain access to the Shadow Operator channel.
 
