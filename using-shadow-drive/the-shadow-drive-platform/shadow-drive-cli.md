@@ -6,11 +6,17 @@ Using Shadow Drive through the CLI is as easy as (1) creating your storage accou
 
 Before installing the Shadow Drive CLI, please make sure you have Node.js version 16 or newer installed on your system.
 
-Once you have Node.js installed, you can run the following command to install and update the Shadow Drive CLI:&#x20;
+Once you have Node.js installed, you can run the following command to install and update the Shadow Drive CLI:
 
 ```shell
 npm install -g @shadow-drive/cli
 ```
+
+{% hint style="warning" %}
+Deprecation Notice: If running `shdw-drive --version` results in an output less than `0.1.0`, then you will need to update the version of the CLI you're using
+
+Versions less than `0.1.0` are deprecated and will not work with certain actions from July 7th, 2022 and on.
+{% endhint %}
 
 ## Getting Started
 
@@ -30,7 +36,7 @@ Example: `shdw-drive help`
 
 This command will display all the available commands for the Shadow Drive CLI.
 
-![](<../../.gitbook/assets/image (2).png>)
+![](<../../.gitbook/assets/Screen Shot 2022-07-06 at 7.44.18 PM.png>)
 
 ### Create Storage Account
 
@@ -50,7 +56,11 @@ Parameters:
 
 Example: `shdw-drive make-storage-account-immutable --keypair ~/.config/solana/id.json`
 
-This will permanently lock your storage account and all files within it. You will not be able to add/reduce storage on this account, delete the storage account, or edit/delete files under this storage account.
+{% hint style="info" %}
+V1.5 Update - You can now add storage capacity and upload files to immutable storage accounts
+{% endhint %}
+
+This will permanently lock your storage account and all files within it. You will not be able to reduce storage on this account, delete the storage account, or edit/delete files under this storage account.
 
 When running this command, you will be presented with a list of storage accounts that the wallet passed in, is an admin of, and has authority to make the account immutable.
 
@@ -143,10 +153,6 @@ Parameters:
 
 ![](../../.gitbook/assets/upload0file.gif)
 
-> **Note**: If you get the error `Server response status message: failed to send transaction: Transaction simulation failed: Transaction leaves an account with a lower balance than rent-exempt minimum` it means you do not have the minimum amount of SOL required in your wallet for your account to be [rent-exempted](https://docs.solana.com/developing/programming-model/accounts#rent-exemption) after the operation.\
-> \
-> Send some SOL to your wallet and try again.
-
 ### Upload Multiple Files
 
 Example: `shdw-drive upload-multiple-files --keypair ~/.config/solana/id.json --directory ~/Documents/my-expensive-jpgs/`
@@ -170,7 +176,11 @@ To re-upload the files that failed to upload when you initially ran the command 
 
 ![](../../.gitbook/assets/shdw\_succes\_retry\_multi\_upload.png)
 
-The following command was used for this, with the folder containing files \[0-10].gif & \[0-10].json: shdw-drive upload-multiple-files --env mainnet-beta --keypair /home/ssc/.config/solana/test.json -d test\_diamond/
+The following command was used for this, with the folder containing files \[0-10].gif & \[0-10].json:&#x20;
+
+```shell
+shdw-drive upload-multiple-files --env mainnet-beta --keypair /home/ssc/.config/solana/test.json -d test_diamond/
+```
 
 ### Edit File
 
@@ -192,9 +202,9 @@ Parameters:
 
 Example: `shdw-drive delete-file --keypair ~/.config/solana/id.json --url https://shdw-drive.genesysgo.net/abc123def456ghi789/something-important.md`
 
-This will submit a request to delete the file supplied.
-
-NOTE: Once you submit this request, you will have a grace period of the rest of the current Solana Epoch to undo this request. Once Solana's clock reaches the next epoch, you will not be able to undo this request and your file will be available for a crank to fully process the deletion.
+{% hint style="info" %}
+V1.5 Update - This will now immediately delete your file. There is no longer a grace period for file deletions.
+{% endhint %}
 
 Parameters:
 
@@ -202,18 +212,3 @@ Parameters:
 2. URL: The Shadow Drive URL of the file you're requesting to delete
 
 ![](../../.gitbook/assets/delete-file.gif)
-
-### Undelete File
-
-Example: `shdw-drive undelete-file --keypair ~/.config/solana/id.json --url https://shdw-drive.genesysgo.net/abc123def456ghi789/something-important.md`
-
-This will undo a deletion request for the file supplied if it's still within the grace period.
-
-NOTE: There is a grace period between when you request for your storage account to be deleted and when it's actually deleted. Currently it is set to be within the Solana Epoch that you requested to delete your storage account. For example, if you requested to delete a storage account in Solana Epoch 306, once Solana's clock reaches epoch 307, you are no longer able to undo the deletion request and your file will be available for a crank to fully process the deletion.
-
-Parameters:
-
-1. Keypair: Path to the wallet that is an admin of the storage account the file was originally uploaded to
-2. URL: The Shadow Drive URL of the file you're requesting to delete
-
-![](../../.gitbook/assets/undelete-file.gif)
