@@ -20,33 +20,35 @@ Please note, uploads and edits of data are different than reading data. Projects
 
 **Mutable vs. Immutable Storage**
 
-We have learned from the experience of existing storage providers and feel that it is important we ensure users have choice in how their data is stored. Some data should be stored perpetually, but not all data requires this. In fact, one could argue that very little data actually needs to be stored forever. This is likely one of the reasons why Arweave only stores \~60TB (as of the time of writing) of data in total. Which is very fascinating when you consider the fact that Arweave currently has a market cap of \~$1.5b (as of time of writing), yet stores a relatively small amount of data.
+We have learned from the experience of existing storage providers and feel that it is important we ensure users have choice in how their data is stored. Some data should be stored perpetually, but not all data requires this. In fact, one could argue that very little data actually needs to be stored forever. This is likely one of the reasons why Arweave only stores \~60TB (as of the time of writing) of data in total.&#x20;
 
 With all that said, users will select how they want their data stored, and that will impact the overall cost of storage and the way that cost is assessed.
 
-The $SHDW token is broken up into fundamental units called “Shades”. Shadow Drive focuses on the fundamentals of storage and, at the most fundamental level, Shadow Drive stores bytes. Therefore, in the spirit of simplicity, the following conversions are applied:
+The SHDW token is broken up into fundamental units called “Shades”. Shadow Drive focuses on the fundamentals of storage and, at the most fundamental level, Shadow Drive stores bytes. Therefore, in the spirit of simplicity, the following conversions are applied:
 
-1,000,000,000 Shades = 1 $SHDW
+1,000,000,000 Shades = 1 SHDW
 
-_This is in line with 1b lamports equaling 1 $SOL as a measure of the cost computational units_
+_This is in line with 1b lamports equaling 1 SOL as a measure of the cost computational units_
 
 1,000,000,000 bytes = 1 gigabyte
 
 _Therefore…_
 
-1 byte stored = 1 Shade or 1 gigabyte = 1 SHDW
+1 byte stored = 1 Shade
 
-**Immutable storage** is relatively simple… If you upload 1gb of data to Shadow Drive, then a cost of 1 $SHDW is applied and the smart contract sends that $SHDW to the Shadow Operator smart contract to be sent out to Shadow Operators as emissions for operating Shadow Nodes. The data is flagged as “immutable” by the Shadow Drive smart contract and is therefore unable to be edited or deleted.
+**Immutable storage** is relatively simple… If you upload 1gb of data to Shadow Drive, then a cost of .25 SHDW is applied and the smart contract sends that SHDW to the Shadow Operator smart contract to be sent out to Shadow Operators as emissions for operating Shadow Nodes. The data is flagged as “immutable” by the Shadow Drive smart contract and is therefore unable to be edited or deleted.
 
-**Mutable storage** is a little more complex (but not overly so) and relies on staking and rent mechanics very similar to the ones used by Solana in their on-chain accounts design. If you upload 1gb of data to Shadow Drive, then you are required to **stake** 1 $SHDW. On a per epoch basis, rent is assessed against mutable storage at the rate of 1 SHDW per GB per year. Therefore, uploading 1gb of data to Shadow Drive would look something like this…
+**Mutable storage** is a little more complex (but not overly so) and relies on staking and rent mechanics very similar to the ones used by Solana in their on-chain accounts design. If you upload 1gb of data to Shadow Drive, then you are required to **stake** .25 SHDW. On a per epoch basis, rent is assessed against mutable storage at the rate of 1 SHDW per GB per year. Therefore, uploading 1gb of data to Shadow Drive would look something like this…
 
-1. A user uploads 1gb of data into Shadow Drive. In order to do so, the user is required to stake 1 $SHDW with the Shadow Drive smart contract.
-2. On a per epoch basis, rent is assessed and removed from the staked $SHDW (unless the user has flagged the data as immutable) in the form of Shades. By the end of a 1 year period, the storage user would need to add additional $SHDW to their account or risk the data being deleted.
+1. A user uploads 1gb of data into Shadow Drive. In order to do so, the user is required to stake 1 SHDW with the Shadow Drive smart contract.
+2. On a per epoch basis, rent is assessed and removed from the staked SHDW (unless the user has flagged the data as immutable) in the form of Shades. By the end of a 1 year period, the storage user would need to add additional SHDW to their account or risk the data being deleted.
 3. The rent assessed each epoch is sent to the Shadow Operator Smart Contract and adds to the pool the smart contract pays out to Shadow Operators as emissions.
-4. If, after six months, the storage user unstakes their $SHDW (signaling that they no longer need this data to be stored), then they would have paid .5 $SHDW in rent and would receive .5 $SHDW back.
-5. If, after six months, the storage user decided to flag their data as immutable, then they would need to add the difference between what is currently staked in the smart contract and what it would cost to immutably store their data. So, a user with 1gb of data stored and .5 $SHDW staked in the smart contract (after six months of staking) would need to add .5 $SHDW in order to make their data immutable.
+4. If, after six months, the storage user unstakes their SHDW (signaling that they no longer need this data to be stored), then they would have paid .5 SHDW in rent and would receive .5 SHDW back.
+5. If, after six months, the storage user decided to flag their data as immutable, then they would need to add the difference between what is currently staked in the smart contract and what it would cost to immutably store their data. So, a user with 1gb of data stored and .5 SHDW staked in the smart contract (after six months of staking) would need to add .5 SHDW in order to make their data immutable.
 
-This design was adopted in order to help the network benefit from reduced liquidity and ensure the longevity of the Shadow Operators. The benefit to users of mutable storage is that their short-term storage needs are met; and once those needs have been met, the mutable storage user can potentially unstake their $SHDW at a higher value than what they purchased it for. The benefit to those who use immutable storage is that they can rest assured that their account data will be retained for continual access and usage into perpetuity. This also means that as the price of $SHDW fluctuates, users of immutable storage will likely have paid a cheaper price for storage as years pass.
+The rent mechanic is designed to take into account the increased bandwidth usage that typically comes along with mutable storage as it has an increased amount of reads and writes relative to immutable storage.
+
+The benefit to users of mutable storage is that their short-term storage needs are met; and once those needs have been met, the mutable storage user can unstake their SHDW and be returned whatever amount of SHDW they did not use. The benefit to those who use immutable storage is that they can rest assured that their account data will be retained for continual access and usage into perpetuity. This also means that as the price of $SHDW fluctuates, users of immutable storage will likely have paid a cheaper price for storage as years pass.
 
 In the end, we believe immutable storage to be the best overall value, but we also recognize that short-term data storage needs should not be forced into a singular regime.
 
