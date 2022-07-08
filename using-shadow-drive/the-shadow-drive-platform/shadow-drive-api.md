@@ -121,6 +121,7 @@ Parameters (FormData fields):
 2. message: Base58 message signature.&#x20;
 3. signer: Publickey of the signer of the message signature and owner of the storage account
 4. storage\_account: Key of the storage account you want to upload to
+5. url: Url of the original file you want to edit. Example: \`https://shdw-drive.genesysgo.net/\<storage-account>/\<file-name>\`
 
 Example implementation: [https://gist.github.com/tracy-codes/3aab96f4c23086d6124835436d4ca6f4](https://gist.github.com/tracy-codes/3aab96f4c23086d6124835436d4ca6f4)
 

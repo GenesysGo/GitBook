@@ -13,9 +13,9 @@ npm install -g @shadow-drive/cli
 ```
 
 {% hint style="warning" %}
-Deprecation Notice: If running `shdw-drive --version` results in an output less than `0.1.0`, then you will need to update the version of the CLI you're using
+Deprecation Notice: If running `shdw-drive --version` results in an output less than `0.2.0`, then you will need to update the version of the CLI you're using
 
-Versions less than `0.1.0` are deprecated and will not work with certain actions from July 7th, 2022 and on.
+Versions less than `0.2.0` are deprecated and will not work with certain actions from July 8th, 2022 and on.
 {% endhint %}
 
 ## Getting Started
