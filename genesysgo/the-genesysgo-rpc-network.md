@@ -40,4 +40,5 @@ The SSC DAO RPC network provides the following:
     * Global Limit on the rest of the calls: 200 RPS
       * Please see Solana API documentation if you are unsure what this means: [https://docs.solana.com/developing/clients/jsonrpc-api](https://docs.solana.com/developing/clients/jsonrpc-api)
     * `Burst` allows for batching transactions and requests to be queued for processing instead of receiving a rate limit error (error code 429).
+    * Custom endpoints no longer necessary for increased performance.
     * Devnet endpoints are unlimited RPS with no caps.
