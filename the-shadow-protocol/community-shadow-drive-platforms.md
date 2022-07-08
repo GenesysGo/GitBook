@@ -2,7 +2,7 @@
 description: A showcase of amazing people building great things on top of Shadow Drive
 ---
 
-# Shadow Drive Platforms
+# Shadow Drive UI & Platforms
 
 {% hint style="info" %}
 Shadow Drive is designed to be a platform other platforms are built on.

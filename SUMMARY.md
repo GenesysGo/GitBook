@@ -2,6 +2,7 @@
 
 * [Shadow Book Summary](README.md)
 * [The Shadow Ecosystem](the-shadow-protocol/README.md)
+  * [Shadow Drive UI & Platforms](the-shadow-protocol/community-shadow-drive-platforms.md)
   * [The Shadowy Super Coder Validator](the-shadow-protocol/the-shadowy-super-coder-validator.md)
 * [GenesysGo](genesysgo/README.md)
   * [Social Media & Community](genesysgo/social-media-and-community.md)
@@ -16,7 +17,6 @@
   * [On-chain events as Proof of Storage](shadow-infrastructure-overview/shadow-drive-overview/on-chain-events-as-proof-of-storage.md)
   * [The Shadow Drive Smart Contracts](shadow-infrastructure-overview/shadow-drive-overview/the-shadow-drive-smart-contracts.md)
   * [The Shadow Drive Enhanced RPC Network Architecture](shadow-infrastructure-overview/shadow-drive-overview/the-shadow-drive-enhanced-rpc-network-architecture.md)
-* [Shadow Drive Platforms](shadow-infrastructure-overview/community-shadow-drive-platforms.md)
 * [The Shadow Net](shadow-infrastructure-overview/the-shadow-net/README.md)
   * [Overview](shadow-infrastructure-overview/the-shadow-net/overview.md)
   * [Shadow Realms](shadow-infrastructure-overview/the-shadow-net/shadow-realms.md)
@@ -31,7 +31,7 @@
 
 * [The Shadow Drive Platform](using-shadow-drive/the-shadow-drive-platform/README.md)
   * [Shadow Drive CLI](using-shadow-drive/the-shadow-drive-platform/shadow-drive-cli.md)
-  * [Shadow Drive SDK](using-shadow-drive/the-shadow-drive-platform/shadow-drive-sdk.md)
+  * [Shadow Drive SDK](using-shadow-drive/the-shadow-drive-platform/shadow-drive-sdk/README.md)
   * [Shadow Drive API](using-shadow-drive/the-shadow-drive-platform/shadow-drive-api.md)
   * [Shadow Drive Performance](using-shadow-drive/the-shadow-drive-platform/shadow-drive-performance.md)
   * [Submitting Bugs](using-shadow-drive/the-shadow-drive-platform/submitting-bugs.md)
