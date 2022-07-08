@@ -2,12 +2,16 @@
 description: A showcase of amazing people building great things on top of Shadow Drive
 ---
 
-# Community Shadow Drive Platforms
+# Shadow Drive Platforms
 
-{% hint style="warning" %}
-These platforms and user-interfaces are largely designed with non-developer users in mind.
+{% hint style="info" %}
+Shadow Drive is designed to be a platform other platforms are built on.
 
-If you are a developer building a project we would highly recommending utilizing the CLI and/or SDK as it was built with the developer community in mind.
+Below are a few of the user interfaces and projects that have been built on top of Shadow Drive.&#x20;
+
+If you are building on Shadow Drive and don't see your project featured here then please submit a PR so we can highlight your amazing work!
+
+[https://github.com/GenesysGo/GitBook](https://github.com/GenesysGo/GitBook)
 {% endhint %}
 
 ## Pentacle Tools Shadow Drive File Viewer
@@ -16,7 +20,7 @@ If you are a developer building a project we would highly recommending utilizing
 
 Follow Pentacle's creator Alice on Twitter at [https://twitter.com/0xAlice\_](https://twitter.com/0xAlice\_)
 
-## &#x20;Knox's Shadow Drive File Upload UI
+## Knox's Shadow Drive File Upload UI
 
 {% embed url="http://shadow.knoxsdata.com/" %}
 
@@ -38,11 +42,12 @@ You can follow Coach Chuck on Twitter at [https://twitter.com/CoachChuckFF](http
 
 {% embed url="https://www.shadow.storage/" %}
 
-You can follow Shadow Storage on Twitter at [https://twitter.com/shadow_storage](https://twitter.com/shadow_storage)
+You can follow Shadow Storage on Twitter at [https://twitter.com/shadow\_storage](https://twitter.com/shadow\_storage)
 
 ## Grape Shadow Drive UI / Repo
 
 {% embed url="https://grapedrive.vercel.app" %}
+
 {% embed url="https://github.com/Grape-Labs/grape-drive" %}
 
-You can follow Grape Twitter at [https://twitter.com/shadow_storage](https://twitter.com/grapeprotocol)
+You can follow Grape Twitter at [https://twitter.com/shadow\_storage](https://twitter.com/grapeprotocol)
