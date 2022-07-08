@@ -163,7 +163,7 @@ Request content type: application/json
 
 Parameters:
 
-1. Location: URL of the file you want to get information for
+1. location: URL of the file you want to get information for
 
 Response: JSON object of the file's metadata in the Shadow Drive Network or an error
 
