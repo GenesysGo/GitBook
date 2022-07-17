@@ -2,7 +2,7 @@
 
 At the heart of Shadow Drive lives the open source software defined storage program called Ceph.
 
-![https://en.wikipedia.org/wiki/Ceph\_(software)](<../../../../.gitbook/assets/image (1).png>)
+![https://en.wikipedia.org/wiki/Ceph\_(software)](<../../.gitbook/assets/image (1).png>)
 
 **Ceph was chosen for a number of reasons…**
 
@@ -17,9 +17,9 @@ At the heart of Shadow Drive lives the open source software defined storage prog
 
 …the creator of the Paxos Consensus Mechanism, Leslie Lamport, is also honored as Solana’s biggest technical influence…
 
-![https://docs.solana.com/introduction](<../../../../.gitbook/assets/image (3) (1).png>)
+![https://docs.solana.com/introduction](<../../.gitbook/assets/image (3) (1).png>)
 
-![https://martinfowler.com/articles/patterns-of-distributed-systems/paxos.html](../../../../.gitbook/assets/image.png)
+![https://martinfowler.com/articles/patterns-of-distributed-systems/paxos.html](../../.gitbook/assets/image.png)
 
 ### If nothing else… <a href="#b15e" id="b15e"></a>
 

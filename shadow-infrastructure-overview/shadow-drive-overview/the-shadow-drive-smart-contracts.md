@@ -6,7 +6,7 @@ The Shadow Drive smart contracts are designed to fit multiple use cases. The bea
 
 The Paxos consensus mechanism is pretty amazing and is, arguably, the forerunner of the Proof of History consensus mechanism. As written in the Solana docs, Leslie Lamport (the creator of Paxos) is credited as the greatest technical influence to Solana. Another great resource explaining Paxos can be found here: [https://understandingpaxos.wordpress.com/](https://understandingpaxos.wordpress.com)
 
-![Confirmed: Sneakers = Peak Performance](<../../../../.gitbook/assets/image (5).png>)
+![Confirmed: Sneakers = Peak Performance](<../../.gitbook/assets/image (5).png>)
 
 These pages are not meant to be a deep dive into Paxos. Instead, they will focus on how the Shadow Drive smart contract interacts with Paxos. Inside of Shadow Drive, a series of monitor daemons maintain the CRUSH map and ensure the integrity of the data stored within Shadow Drive. They also guard against unauthorized changes to the data and can restore all of the data stored within Shadow Drive. They are very similar to Solana validators in this way, and they should be considered the guardians of the state of all the data stored in Shadow Drive.
 

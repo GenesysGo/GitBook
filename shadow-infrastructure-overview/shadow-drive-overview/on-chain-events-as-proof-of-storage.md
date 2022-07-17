@@ -6,13 +6,13 @@ What do I mean by “state”? Let’s use computers as an example… Everything
 
 The next thing we need to know is that Solana is unique in the way it structures everything as an “account.” This is important terminology, so here’s the definition:
 
-![https://docs.solana.com/terminology](<../../../../.gitbook/assets/image (7).png>)
+![https://docs.solana.com/terminology](<../../.gitbook/assets/image (7).png>)
 
 Thinking back to state, the history of the accounts on Solana is completely irrelevant to their current state. Why? Because all the events that took place in order to arrive at the current state were reviewed by the Proof of History consensus mechanism (i.e. the Solana Validator network) and deemed to be valid.
 
 Tying everything together, what Solana is really built to achieve and maintain consensus on is the state of all accounts on the network. **It is a state machine.** In fact, **“the world’s most performant global state machine”** is exactly how Solana is described in its Twitter bio.
 
-![https://twitter.com/solana](<../../../../.gitbook/assets/image (4) (1).png>)
+![https://twitter.com/solana](<../../.gitbook/assets/image (4) (1).png>)
 
 The current state of Solana is already hashed, but then it is shredded and decentralized across all the validators of the network. Effectively what this means is that Solana can recreate the current state of every piece of data on the blockchain… every wallet address, every program that’s been deployed, the location of every single token… at a moment’s notice… **without** needing to know anything about the historical transactions that led up to the current state.
 
