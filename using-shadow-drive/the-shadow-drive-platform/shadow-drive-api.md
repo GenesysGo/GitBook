@@ -158,6 +158,24 @@ Response:
 
 <details>
 
+<summary>POST /list-objects-and-sizes - Get a list of all files and their size associated with a storage account</summary>
+
+Parameters:
+
+1. storageAccount: String version of the storage account PublicKey that you want to get a list of files for
+
+Response:
+
+```
+{
+    "files": [{"file_name": String, size: Number}]
+}
+```
+
+</details>
+
+<details>
+
 <summary>POST /get-object-data - Get information about an object</summary>
 
 Request content type: application/json
